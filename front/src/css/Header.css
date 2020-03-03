@@ -1,0 +1,87 @@
+
+.nghead, .drophead {
+    border: solid 1px #424542;
+    box-shadow: 1px 1px #e7dfe7,
+                -1px -1px #e7dfe7,
+                1px -1px #e7dfe7,
+                -1px 1px #e7dfe7,
+                0 -2px #9c9a9c,
+                -2px 0 #7b757b,
+                0 2px #424542;
+    background: #04009d;
+    background: -moz-linear-gradient(top,  #04009d 0%, #06004d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#04009d), color-stop(100%,#06004d));
+    background: -webkit-linear-gradient(top,  #04009d 0%,#06004d 100%);
+    background: -o-linear-gradient(top,  #04009d 0%,#06004d 100%);
+    background: -ms-linear-gradient(top,  #04009d 0%,#06004d 100%);
+    background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04009d', endColorstr='#06004d',GradientType=0);
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navtitle {   
+    font-family: 'Press Start 2P', cursive;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.navtitle, .menutitle, .drophead {
+    color: white !important;   
+}
+
+.drophead {
+    padding: 20px !important;
+}
+
+.mr-auto {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+}
+
+.dropdown-menu-right {
+    left: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    margin-top: -2px !important;
+}
+
+.iconyt {
+    color: darkred;
+}
+
+.nes-btn {
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+}
+
+.titleyt {
+    margin-left: 5px;
+}
+
+.mario {
+    height: 50px;
+    width: 50px;
+    animation: marioIsMoving 9s infinite ;
+}
+
+
+@keyframes marioIsMoving{
+    50%{
+        transform: translateX(73vw)  ;
+    }
+    51%{
+        transform: translateX(73vw) rotateY(180deg);
+    }
+    100%{
+        transform: translateX(0vw) rotateY(180deg) ;
+    } 
+}
+
+
+.menutitle, .textmenu {
+    font-family: 'Play', sans-serif !important;
+    font-weight: bold !important;
+}

@@ -1,0 +1,29 @@
+.allcard {
+    width: 50% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 30px !important;
+
+}
+
+.card-img {
+    width: 100% !important;
+}
+
+.allpreview {
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.cardpreview {
+    width: 20% !important;
+    margin-left: 20px !important;
+    transition: transform .2s; /* Animation */
+}
+
+.cardpreview:hover {
+    transform: scale(7);
+    z-index: 99;
+    width: 100%; max-width: 100% !important;
+    border-radius: 0% !important;
+}
