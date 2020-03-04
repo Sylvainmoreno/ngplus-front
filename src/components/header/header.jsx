@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText } from 'reactstrap';
 import '../../css/Header.css'
-import { Link } from 'react-router-dom';
 import Mario from '../../images/mario.gif';
 
 const Header = () => {

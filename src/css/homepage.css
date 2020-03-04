@@ -1,0 +1,35 @@
+.homepage{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.margin{
+    margin: 3%;
+}
+
+.slide{
+    background-color: darkgrey;
+    height: 200px;
+}
+
+.actupro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.big{
+ background-color: red;
+ height: 100px;
+ flex-basis: 64%;
+ margin-right: 4%;
+}
+
+.small{
+    background-color: blue;
+    height: 100px;
+    flex-basis: 32%;
+}
