@@ -17,6 +17,7 @@
     "jquery": "^3.4.1",
     "mdbreact": "^4.25.1",
     "nes.css": "^2.3.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-i18next": "^11.3.1",

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText } from 'reactstrap';
 import '../../css/Header.css'
-import { Link } from 'react-router-dom';
 import Mario from '../../images/mario.gif';
 
 const Header = () => {
@@ -18,7 +17,7 @@ const Header = () => {
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle className="menutitle" nav caret>Choisissez votre difficulté</DropdownToggle>
                             <DropdownMenu right className="textmenu">
-                                <DropdownItem className="drophead"><NavLink className="News" href="/news">News</NavLink></DropdownItem>
+                                <DropdownItem className="drophead"><NavLink className="news" href="/news">News</NavLink></DropdownItem>
                                 <DropdownItem className="drophead">Tests</DropdownItem>
                                 <DropdownItem className="drophead">Trucs et astuces</DropdownItem>
                                 <DropdownItem className="drophead">Blog</DropdownItem>
